@@ -49,6 +49,7 @@ body {
 .complete-task__checkbox,
 .todo-task__text,
 .complete-task__text,
+.create-task__task,
 .button-edit,
 .button-delete {
   outline: none;
