@@ -32,14 +32,14 @@ body {
   display: flex;
 }
 .main-page__todo-tasks, .main-page__complete-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .task, .task-edit, .complete-task, .main-page__header {
-  list-style:none;
+  list-style: none;
 }
 .todo-task__checkbox, .complete-task__checkbox, .todo-task__text, .complete-task__text, .button-edit, .button-delete{
-  outline:none;
+  outline: none;
 }
 .button-edit, .button-delete {
   background: none;
@@ -131,16 +131,16 @@ body {
 
 /* Edit Task */
 .task .todo-task__text, .task .complete-task__text {
-  display:none
+  display: none
 }
 
 .task-edit .todo-task__text, .task-edit .complete-task__text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task-edit .complete-task__label, .task-edit .todo-task__label {
-  display:none;
+  display: none;
 }
 
 @media (max-width:768px) {
