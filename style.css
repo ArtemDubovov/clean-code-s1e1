@@ -151,7 +151,8 @@ body {
 }
 
 /* Completed */
-.complete-task__label {
+.main-page__complete-tasks .complete-task__label,
+.main-page__complete-tasks .todo-task__label {
   text-decoration: line-through;
   color: #888;
 }
